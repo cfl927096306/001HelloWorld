@@ -1,7 +1,9 @@
 #include <stdio.h>
 
+#define STR "This is a demo"
+
 int main(void)
 {
-    printf("hello world\n");
+    printf("%s: hello world\n", STR);
     return 0;
 }
